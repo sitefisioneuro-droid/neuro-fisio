@@ -1,0 +1,213 @@
+/* ============================================
+   DESIGN SYSTEM — NeuroFisio Infantil
+   Paleta Pastel · Suave · Infantil
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  /* ── Cores Principais ── */
+  --sage: #7ABAAE;
+  --sage-dark: #5E9E92;
+  --sage-light: #A8D5CB;
+  --sage-50: #EDF7F4;
+
+  /* ── Cores de Acento ── */
+  --blush: #F2B8B5;
+  --blush-light: #FDDCDA;
+  --lavender: #C5B9E8;
+  --lavender-light: #E8E0F8;
+  --peach: #F8CFA0;
+  --peach-light: #FDE8CC;
+  --mint: #B5E2D0;
+  --mint-light: #DDF3EB;
+
+  /* ── Neutros ── */
+  --cream: #FFFBF7;
+  --warm-gray: #F5F0EB;
+  --soft-border: #EDE7E0;
+  --text-dark: #2C3E50;
+  --text-body: #4A5568;
+  --text-muted: #8896A6;
+  --white: #FFFFFF;
+
+  /* ── WhatsApp ── */
+  --whatsapp: #25D366;
+  --whatsapp-hover: #1EBE57;
+
+  /* ── Tipografia ── */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  /* ── Espaçamento ── */
+  --container: 1140px;
+  --section-gap: 6rem;
+
+  /* ── Sombras ── */
+  --shadow-sm: 0 1px 3px rgba(44, 62, 80, 0.04);
+  --shadow-md: 0 4px 20px rgba(44, 62, 80, 0.06);
+  --shadow-lg: 0 12px 40px rgba(44, 62, 80, 0.08);
+
+  /* ── Bordas ── */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 30px;
+  --radius-full: 50px;
+}
+
+/* ── Reset Global ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-body);
+  background-color: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  color: var(--text-dark);
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ── Container ── */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Botões ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.btnPrimary {
+  background-color: var(--sage);
+  color: var(--white);
+}
+
+.btnPrimary:hover {
+  background-color: var(--sage-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(122, 186, 174, 0.35);
+}
+
+.btnOutline {
+  background-color: transparent;
+  border: 2px solid var(--sage);
+  color: var(--sage-dark);
+}
+
+.btnOutline:hover {
+  background-color: var(--sage);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.btnWhatsapp {
+  background-color: var(--whatsapp);
+  color: var(--white);
+}
+
+.btnWhatsapp:hover {
+  background-color: var(--whatsapp-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+}
+
+/* ── Animações ── */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sage-light);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sage);
+}
+
+/* ── Selection ── */
+::selection {
+  background: var(--sage-light);
+  color: var(--text-dark);
+}
