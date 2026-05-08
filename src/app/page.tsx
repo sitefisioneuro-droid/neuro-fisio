@@ -170,12 +170,12 @@ export default function Home() {
             ════════════════════════════════════════════ */}
         <section id="especialidades" className={styles.specialties}>
           <div className={styles.specialtiesInner}>
-            <p className={styles.sectionLabel}>O que faço</p>
-            <h2 className={styles.sectionTitle}>Minhas Especialidades</h2>
+            <h2 className={styles.sectionTitle}>Área de Atuação</h2>
             <p className={styles.sectionSubtitle}>
-              Intervenção precoce com foco nos problemas mais comuns do
-              desenvolvimento motor infantil, sempre com carinho e evidência
-              científica.
+              Atendimento especializado para bebês e crianças com atraso no
+              desenvolvimento motor, torcicolo congênito e assimetrias
+              cranianas, unindo acolhimento, intervenção precoce e prática
+              baseada em evidências.
             </p>
 
             <div className={styles.specialtiesGrid}>
@@ -241,7 +241,7 @@ export default function Home() {
                 <div className={styles.proImage}>
                   <Image
                     src="/images/profissional.jpeg"
-                    alt="Foto da Dra. Especialista"
+                    alt="Foto de Ana Cássia Siqueira da Cunha"
                     width={320}
                     height={400}
                     style={{ objectFit: "cover" }}
@@ -252,7 +252,7 @@ export default function Home() {
               <div>
                 <p className={styles.proLabel}>Fisioterapeuta Responsável</p>
                 {/* ⬇ Trocar pelo nome real da profissional */}
-                <h2 className={styles.proName}>Dra. Nome da Profissional</h2>
+                <h2 className={styles.proName}>Ana Cássia Siqueira da Cunha</h2>
 
                 <p className={styles.proText}>
                   Fisioterapeuta com experiência clínica em Reabilitação
