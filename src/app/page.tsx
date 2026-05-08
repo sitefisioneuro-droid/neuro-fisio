@@ -87,7 +87,6 @@ export default function Home() {
             HERO — 1ª Dobra
             ════════════════════════════════════════════ */}
         <section className={styles.hero}>
-          <div className={styles.heroOverlay} />
           <div className={styles.heroInner}>
             <div className={styles.heroContent}>
 
@@ -101,8 +100,8 @@ export default function Home() {
               </h1>
 
               <p className={styles.heroSubtitle}>
-                Especialista em Torcicolo Congênito, Assimetria Craniana e
-                Atraso no Desenvolvimento Motor. Transformamos o brincar em
+                Experiência clínica em Torcicolo Congênito, Assimetria Craniana e
+                Atraso no Desenvolvimento Motor. Transformo o brincar em
                 reabilitação especializada.
               </p>
 
@@ -144,25 +143,23 @@ export default function Home() {
             <div>
               <span className={styles.aboutLabel}>Missão & Valores</span>
               <h2 className={styles.aboutTitle}>
-                Aqui, oferecemos mais que fisioterapia...
+                Aqui, ofereço mais que fisioterapia...
               </h2>
 
               <p className={styles.aboutText}>
-                Acreditamos que cada pequeno passo é uma grande conquista. Nossa
-                abordagem é centrada na criança e na família, transformando o
-                tratamento neurológico em uma jornada de descoberta e superação
-                — em um ambiente que parece mais um espaço de acolhimento do que
-                uma clínica tradicional.
+                Acredito que cada pequeno passo é uma grande conquista. Minha
+                abordagem é centrada na criança e na família, proporcionando um
+                cuidado acolhedor, respeitoso e individualizado em um ambiente
+                pensado para que todos se sintam seguros e acolhidos.
               </p>
 
               <hr className={styles.aboutDivider} />
 
               <p className={styles.aboutText}>
-                Combinamos o rigor da ciência com a delicadeza que o cuidado
-                infantil exige. Nosso objetivo é potencializar o desenvolvimento
-                motor de cada bebê, prevenir complicações e promover autonomia
-                através de técnicas modernas e humanizadas de neurorreabilitação
-                pediátrica.
+                Combino ciência, experiência clínica e delicadeza no cuidado
+                infantil para estimular o desenvolvimento motor do bebê,
+                prevenir complicações e apoiar cada família em sua jornada com
+                confiança e tranquilidade.
               </p>
             </div>
           </div>
@@ -173,8 +170,8 @@ export default function Home() {
             ════════════════════════════════════════════ */}
         <section id="especialidades" className={styles.specialties}>
           <div className={styles.specialtiesInner}>
-            <p className={styles.sectionLabel}>O que fazemos</p>
-            <h2 className={styles.sectionTitle}>Nossas Especialidades</h2>
+            <p className={styles.sectionLabel}>O que faço</p>
+            <h2 className={styles.sectionTitle}>Minhas Especialidades</h2>
             <p className={styles.sectionSubtitle}>
               Intervenção precoce com foco nos problemas mais comuns do
               desenvolvimento motor infantil, sempre com carinho e evidência
@@ -243,21 +240,22 @@ export default function Home() {
                 <div className={styles.proImageAccent} />
                 <div className={styles.proImage}>
                   <Image
-                    src="/images/doctor.png"
-                    alt="Foto da profissional"
+                    src="/images/profissional.jpeg"
+                    alt="Foto da Dra. Especialista"
                     width={320}
                     height={400}
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
               </div>
 
               <div>
-                <p className={styles.proLabel}>Especialista Responsável</p>
+                <p className={styles.proLabel}>Fisioterapeuta Responsável</p>
                 {/* ⬇ Trocar pelo nome real da profissional */}
                 <h2 className={styles.proName}>Dra. Nome da Profissional</h2>
 
                 <p className={styles.proText}>
-                  Fisioterapeuta com especialização em Reabilitação
+                  Fisioterapeuta com experiência clínica em Reabilitação
                   Neuro-Pediátrica, dedicando sua carreira ao estudo do
                   desenvolvimento infantil. Sua conduta terapêutica alia ciência
                   e uma paixão genuína por transformar a vida de pequenos
@@ -283,7 +281,7 @@ export default function Home() {
                       <Heart size={20} style={{ display: "inline", marginRight: 4 }} />
                       Neuro
                     </span>
-                    <span className={styles.statLabel}>Especialização</span>
+                    <span className={styles.statLabel}>Experiência Clínica</span>
                   </div>
                 </div>
               </div>
@@ -308,7 +306,10 @@ export default function Home() {
             </div>
 
             <div className={styles.contactCard}>
-              <h2 className={styles.contactTitle}>Onde nos Encontrar</h2>
+              <h2 className={styles.contactTitle}>Onde me Encontrar</h2>
+              <p className={styles.contactSubtitle}>
+                Meu foco principal é o <strong>atendimento domiciliar</strong>, levando o cuidado até o conforto do seu lar. Caso resida em locais mais distantes, também ofereço a opção de atendimento em consultório.
+              </p>
 
               <div className={styles.contactList}>
                 <div className={styles.contactItem}>
