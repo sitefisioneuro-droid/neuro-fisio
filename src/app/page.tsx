@@ -250,22 +250,34 @@ export default function Home() {
               </div>
 
               <div>
-                <p className={styles.proLabel}>Fisioterapeuta Responsável</p>
-                {/* ⬇ Trocar pelo nome real da profissional */}
+                <p className={styles.proLabel}>Sobre mim</p>
                 <h2 className={styles.proName}>Ana Cássia Siqueira da Cunha</h2>
 
                 <p className={styles.proText}>
-                  Fisioterapeuta com experiência clínica em Reabilitação
-                  Neuro-Pediátrica, dedicando sua carreira ao estudo do
-                  desenvolvimento infantil. Sua conduta terapêutica alia ciência
-                  e uma paixão genuína por transformar a vida de pequenos
-                  pacientes e suas famílias.
+                  Sou Ana Cássia Siqueira da Cunha, fisioterapeuta neurofuncional
+                  com atuação em pediatria desde 1998. Minha prática clínica é
+                  voltada principalmente para bebês e crianças com atraso do
+                  desenvolvimento, torcicolo congênito e assimetrias cranianas,
+                  sempre com um olhar centrado na criança e na família.
                 </p>
 
                 <p className={styles.proText}>
-                  Em constante atualização, busca trazer as técnicas mais
-                  avançadas e menos invasivas para o consultório, sempre
-                  priorizando o conforto e o ritmo natural de cada criança.
+                  Ao longo da minha trajetória, busco unir experiência clínica,
+                  atualização científica e atendimento acolhedor, respeitando o
+                  desenvolvimento e o ritmo de cada criança. Sou formada pela
+                  Faculdade de Ciências Médicas de Minas Gerais (1997), com
+                  pós-graduação em Neurologia pela UFMG (2001) e mestrado em
+                  Bioengenharia pela UNIVAP (2008).
+                </p>
+
+                <p className={styles.proText}>
+                  Além da atuação clínica, também atuo na docência desde 2001,
+                  contribuindo para a formação de novos profissionais na área da
+                  fisioterapia. Estou em constante atualização, realizando
+                  cursos e aperfeiçoamentos voltados às abordagens mais atuais e
+                  baseadas em evidências científicas, buscando oferecer um
+                  tratamento individualizado, humanizado e alinhado às
+                  necessidades de cada criança e sua família.
                 </p>
 
                 <div className={styles.proStats}>
