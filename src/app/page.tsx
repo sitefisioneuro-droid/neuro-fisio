@@ -17,10 +17,14 @@ import {
 import WhatsAppIcon from "@/components/WhatsAppIcon";
 import styles from "./page.module.css";
 
-/* ── Número do WhatsApp (trocar pelo real) ── */
-const WHATSAPP_NUMBER = "5511999999999";
+/* ── Informações de Contato (Reais) ── */
+const WHATSAPP_NUMBER = "5531999935571";
+const EMAIL_ADDRESS = "anacassia.fisio@gmail.com";
+const INSTAGRAM_URL = "https://www.instagram.com/anacassiafisio?igsh=MWE3bmQ1NnVodHlpaA%3D%3D&utm_source=qr";
+const PHONE_DISPLAY = "(31) 99993-5571";
+
 const WHATSAPP_MSG = encodeURIComponent(
-  "Olá! Gostaria de agendar uma consulta de fisioterapia neurológica infantil."
+  "Olá Ana Cássia! Vi seu site e gostaria de agendar uma consulta de fisioterapia neurológica infantil."
 );
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
 
@@ -258,47 +262,32 @@ export default function Home() {
 
                 <p className={styles.proText}>
                   Sou Ana Cássia Siqueira da Cunha, fisioterapeuta neurofuncional
-                  com atuação em pediatria desde 1998. Minha prática clínica é
-                  voltada principalmente para bebês e crianças com atraso do
-                  desenvolvimento, torcicolo muscular e assimetrias cranianas,
-                  sempre com um olhar centrado na criança e na família.
+                  com atuação em pediatria desde 1998. Atuo principalmente no
+                  tratamento de bebês e crianças com atraso do desenvolvimento,
+                  torcicolo muscular e assimetrias cranianas, com um cuidado
+                  centrado na criança e na família.
                 </p>
 
                 <p className={styles.proText}>
-                  Ao longo da minha trajetória, busco unir experiência clínica,
-                  atualização científica e atendimento acolhedor, respeitando o
-                  desenvolvimento e o ritmo de cada criança. Sou formada pela
-                  Faculdade de Ciências Médicas de Minas Gerais (1997), com
-                  pós-graduação em Neurologia pela UFMG (2001) e mestrado em
-                  Bioengenharia pela UNIVAP (2008).
+                  Sou formada pela Faculdade de Ciências Médicas de Minas Gerais,
+                  com pós-graduação em Neurologia pela UFMG e mestrado em
+                  Bioengenharia pela UNIVAP. Também atuo na docência desde 2001,
+                  contribuindo para a formação de novos profissionais.
                 </p>
 
                 <p className={styles.proText}>
-                  Além da atuação clínica, também atuo na docência desde 2001,
-                  contribuindo para a formação de novos profissionais na área da
-                  fisioterapia. Estou em constante atualização, realizando
-                  cursos e aperfeiçoamentos voltados às abordagens mais atuais e
-                  baseadas em evidências científicas, buscando oferecer um
-                  tratamento individualizado, humanizado e alinhado às
-                  necessidades de cada criança e sua família.
+                  Busco unir experiência clínica, atualização científica e
+                  atendimento acolhedor, oferecendo um tratamento
+                  individualizado, humanizado e baseado em evidências
+                  científicas.
                 </p>
 
-                <div className={styles.proStats}>
-                  <div className={`${styles.statBox} ${styles.statSage}`}>
-                    <span className={styles.statNumber}>
-                      <Award size={20} style={{ display: "inline", marginRight: 4 }} />
-                      CREFITO
-                    </span>
-                    <span className={styles.statLabel}>Registro Ativo</span>
-                  </div>
-                  <div className={`${styles.statBox} ${styles.statBlush}`}>
-                    <span className={styles.statNumber}>
-                      <Heart size={20} style={{ display: "inline", marginRight: 4 }} />
-                      Neuro
-                    </span>
-                    <span className={styles.statLabel}>Experiência Clínica</span>
-                  </div>
-                </div>
+                <p className={styles.proText}>
+                  Se você busca um acompanhamento especializado e acolhedor para
+                  sua criança, será um prazer fazer parte dessa trajetória.
+                </p>
+
+
               </div>
             </div>
           </div>
@@ -348,7 +337,7 @@ export default function Home() {
                     <span className={styles.contactLabel}>E-mail</span>
                     {/* ⬇ Trocar pelo email real */}
                     <p className={styles.contactValue}>
-                      contato@exemplo.com.br
+                      {EMAIL_ADDRESS}
                     </p>
                   </div>
                 </div>
@@ -360,7 +349,7 @@ export default function Home() {
                   <div>
                     <span className={styles.contactLabel}>Telefone</span>
                     {/* ⬇ Trocar pelo telefone real */}
-                    <p className={styles.contactValue}>(00) 00000-0000</p>
+                    <p className={styles.contactValue}>{PHONE_DISPLAY}</p>
                   </div>
                 </div>
 
@@ -420,17 +409,17 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
                       <Instagram size={16} /> Instagram
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:contato@exemplo.com.br">
+                    <a href={`mailto:${EMAIL_ADDRESS}`}>
                       <Mail size={16} /> E-mail
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+5500000000000">
+                    <a href={`tel:+5531999935571`}>
                       <Phone size={16} /> Telefone
                     </a>
                   </li>
@@ -455,7 +444,7 @@ export default function Home() {
             </p>
             <div className={styles.footerSocials}>
               <a
-                href="https://instagram.com"
+                href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.socialLink}
