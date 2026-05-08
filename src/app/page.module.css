@@ -38,6 +38,24 @@
   object-fit: contain;
 }
 
+.footerBrand {
+  flex: 1;
+  max-width: 320px;
+}
+
+.footerLogo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 1.25rem;
+  object-fit: contain;
+}
+
+.footerBrand p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-body);
+}
+
 .navLinks {
   display: flex;
   gap: 2rem;
@@ -346,28 +364,12 @@
 }
 
 .iconCircle {
-  width: 56px;
-  height: 56px;
-  border-radius: 16px;
+  width: 72px;
+  height: 72px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 1.5rem;
-}
-
-.iconSage {
-  background: var(--sage-50);
-  color: var(--sage);
-}
-
-.iconBlush {
-  background: var(--blush-light);
-  color: #D4837B;
-}
-
-.iconLavender {
-  background: var(--lavender-light);
-  color: #9B8CC4;
 }
 
 .cardTitle {
@@ -625,13 +627,7 @@
   border-bottom: 1px solid var(--soft-border);
 }
 
-.footerBrand p {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin-top: 0.75rem;
-  max-width: 300px;
-  line-height: 1.6;
-}
+
 
 .footerColumns {
   display: flex;

@@ -185,8 +185,8 @@ export default function Home() {
             <div className={styles.specialtiesGrid}>
               {/* Card 1 — Torcicolo */}
               <div className={`${styles.specialtyCard} ${styles.cardSage}`}>
-                <div className={`${styles.iconCircle} ${styles.iconSage}`}>
-                  <Baby size={28} />
+                <div className={styles.iconCircle}>
+                  <Image src="/images/1.png" alt="Torcicolo" width={64} height={64} />
                 </div>
                 <h3 className={styles.cardTitle}>Torcicolo Muscular</h3>
                 <p className={styles.cardText}>
@@ -202,8 +202,8 @@ export default function Home() {
 
               {/* Card 2 — Assimetria Craniana */}
               <div className={`${styles.specialtyCard} ${styles.cardBlush}`}>
-                <div className={`${styles.iconCircle} ${styles.iconBlush}`}>
-                  <Brain size={28} />
+                <div className={styles.iconCircle}>
+                  <Image src="/images/2.png" alt="Assimetria Craniana" width={64} height={64} />
                 </div>
                 <h3 className={styles.cardTitle}>Assimetria Craniana</h3>
                 <p className={styles.cardText}>
@@ -219,8 +219,8 @@ export default function Home() {
 
               {/* Card 3 — Atraso Motor */}
               <div className={`${styles.specialtyCard} ${styles.cardLavender}`}>
-                <div className={`${styles.iconCircle} ${styles.iconLavender}`}>
-                  <Footprints size={28} />
+                <div className={styles.iconCircle}>
+                  <Image src="/images/3.png" alt="Atraso Motor" width={64} height={64} />
                 </div>
                 <h3 className={styles.cardTitle}>Atraso no Desenvolvimento Motor</h3>
                 <p className={styles.cardText}>
@@ -390,9 +390,13 @@ export default function Home() {
         <div className={styles.footerInner}>
           <div className={styles.footerTop}>
             <div className={styles.footerBrand}>
-              <span className={styles.logoText}>
-                NeuroFisio<span>Infantil</span>
-              </span>
+              <Image
+                src="/images/logo.jpg"
+                alt="NeuroFisio Infantil"
+                width={180}
+                height={72}
+                className={styles.footerLogo}
+              />
               <p>
                 Fisioterapia neurológica pediátrica com carinho e ciência.
                 Cuidado gentil para o potencial de cada criança.
