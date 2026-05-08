@@ -35,11 +35,14 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.nav}>
           <a href="#" className={styles.logoArea}>
-            {/* Quando tiver a logo, troque por:
-                <Image src="/images/logo.png" alt="Logo" width={40} height={40} className={styles.logoImg} /> */}
-            <span className={styles.logoText}>
-              NeuroFisio<span>Infantil</span>
-            </span>
+            <Image
+              src="/images/logo.jpg"
+              alt="NeuroFisio Infantil"
+              width={200}
+              height={80}
+              className={styles.logoImg}
+              priority
+            />
           </a>
 
           <nav className={`${styles.navLinks} ${menuOpen ? styles.navLinksOpen : ""}`}>
