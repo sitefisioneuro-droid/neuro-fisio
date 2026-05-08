@@ -3,7 +3,7 @@
    Paleta Pastel · Suave · Infantil
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+
 
 :root {
   /* ── Cores Principais ── */
@@ -32,12 +32,12 @@
   --white: #FFFFFF;
 
   /* ── WhatsApp ── */
-  --whatsapp: #25D366;
-  --whatsapp-hover: #1EBE57;
+  --whatsapp: #00705f;
+  --whatsapp-hover: #0e393f;
 
   /* ── Tipografia ── */
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: var(--font-poppins), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-quicksand), sans-serif;
 
   /* ── Espaçamento ── */
   --container: 1140px;
@@ -79,9 +79,15 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
   color: var(--text-dark);
   line-height: 1.2;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
 }
 
 a {
@@ -101,7 +107,6 @@ img {
 }
 
 button {
-  font-family: inherit;
   cursor: pointer;
 }
 

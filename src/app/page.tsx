@@ -84,6 +84,7 @@ export default function Home() {
             HERO — 1ª Dobra
             ════════════════════════════════════════════ */}
         <section className={styles.hero}>
+          <div className={styles.heroOverlay} />
           <div className={styles.heroInner}>
             <div className={styles.heroContent}>
               <div className={styles.heroBadge}>
@@ -118,19 +119,6 @@ export default function Home() {
                 <a href="#especialidades" className="btn btnOutline">
                   Conhecer Especialidades
                 </a>
-              </div>
-            </div>
-
-            <div className={styles.heroImageWrapper}>
-              <div className={styles.heroBlob} />
-              <div className={styles.heroImageContainer}>
-                <Image
-                  src="/images/hero.png"
-                  alt="Fisioterapeuta auxiliando criança nos primeiros passos"
-                  width={520}
-                  height={520}
-                  priority
-                />
               </div>
             </div>
           </div>

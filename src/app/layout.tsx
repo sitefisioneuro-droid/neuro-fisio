@@ -1,5 +1,18 @@
 import type { Metadata } from "next";
+import { Poppins, Quicksand } from "next/font/google";
 import "./globals.css";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font-poppins",
+});
+
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  variable: "--font-quicksand",
+});
 
 export const metadata: Metadata = {
   title: "NeuroFisio Infantil | Fisioterapia Neurológica Pediátrica",
@@ -21,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className={`${poppins.variable} ${quicksand.variable}`}>
       <body>{children}</body>
     </html>
   );
