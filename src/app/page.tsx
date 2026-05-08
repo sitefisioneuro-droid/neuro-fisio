@@ -100,7 +100,7 @@ export default function Home() {
               </h1>
 
               <p className={styles.heroSubtitle}>
-                Experiência clínica em Torcicolo Congênito, Assimetria Craniana e
+                Experiência clínica em Torcicolo Muscular, Assimetria Craniana e
                 Atraso no Desenvolvimento Motor. Transformo o brincar em
                 reabilitação especializada.
               </p>
@@ -173,7 +173,7 @@ export default function Home() {
             <h2 className={styles.sectionTitle}>Área de Atuação</h2>
             <p className={styles.sectionSubtitle}>
               Atendimento especializado para bebês e crianças com atraso no
-              desenvolvimento motor, torcicolo congênito e assimetrias
+              desenvolvimento motor, torcicolo muscular e assimetrias
               cranianas, unindo acolhimento, intervenção precoce e prática
               baseada em evidências.
             </p>
@@ -184,7 +184,7 @@ export default function Home() {
                 <div className={`${styles.iconCircle} ${styles.iconSage}`}>
                   <Baby size={28} />
                 </div>
-                <h3 className={styles.cardTitle}>Torcicolo Congênito</h3>
+                <h3 className={styles.cardTitle}>Torcicolo Muscular</h3>
                 <p className={styles.cardText}>
                   Tratamento especializado para correção postural precoce,
                   promovendo alongamento e fortalecimento muscular para garantir
@@ -257,7 +257,7 @@ export default function Home() {
                   Sou Ana Cássia Siqueira da Cunha, fisioterapeuta neurofuncional
                   com atuação em pediatria desde 1998. Minha prática clínica é
                   voltada principalmente para bebês e crianças com atraso do
-                  desenvolvimento, torcicolo congênito e assimetrias cranianas,
+                  desenvolvimento, torcicolo muscular e assimetrias cranianas,
                   sempre com um olhar centrado na criança e na família.
                 </p>
 
