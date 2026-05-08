@@ -87,10 +87,7 @@ export default function Home() {
           <div className={styles.heroOverlay} />
           <div className={styles.heroInner}>
             <div className={styles.heroContent}>
-              <div className={styles.heroBadge}>
-                <span className={styles.heroBadgeDot} />
-                Fisioterapia Neurológica Pediátrica
-              </div>
+
 
               <h1 className={styles.heroTitle}>
                 Cuidado gentil para o{" "}
