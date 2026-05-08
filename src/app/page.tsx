@@ -220,9 +220,10 @@ export default function Home() {
                 </div>
                 <h3 className={styles.cardTitle}>Atraso no Desenvolvimento Motor</h3>
                 <p className={styles.cardText}>
-                  Estimulação dos marcos motores — rolar, sentar, engatinhar e
-                  caminhar — através de atividades lúdicas fundamentadas na
-                  neuroplasticidade.
+                  Atendimento individualizado para crianças com atraso do
+                  desenvolvimento motor, promovendo aquisição de habilidades
+                  motoras, funcionalidade e maior participação nas atividades
+                  do dia a dia.
                 </p>
                 <span className={`${styles.cardTag} ${styles.tagLavender}`}>
                   Estimulação
