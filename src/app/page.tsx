@@ -195,15 +195,13 @@ export default function Home() {
                   desenvolvimento motor do bebê de forma individualizada e
                   acolhedora.
                 </p>
-                <span className={`${styles.cardTag} ${styles.tagSage}`}>
-                  Intervenção Precoce
-                </span>
+
               </div>
 
               {/* Card 2 — Assimetria Craniana */}
               <div className={`${styles.specialtyCard} ${styles.cardBlush}`}>
                 <div className={styles.iconCircle}>
-                  <Image src="/images/2.png" alt="Assimetria Craniana" width={64} height={64} />
+                  <Image src="/images/assimetria.png" alt="Assimetria Craniana" width={64} height={64} />
                 </div>
                 <h3 className={styles.cardTitle}>Assimetria Craniana</h3>
                 <p className={styles.cardText}>
@@ -212,15 +210,13 @@ export default function Home() {
                   específicos que favorecem a simetria craniana e o
                   desenvolvimento do bebê.
                 </p>
-                <span className={`${styles.cardTag} ${styles.tagBlush}`}>
-                  Preventivo
-                </span>
+
               </div>
 
               {/* Card 3 — Atraso Motor */}
               <div className={`${styles.specialtyCard} ${styles.cardLavender}`}>
                 <div className={styles.iconCircle}>
-                  <Image src="/images/3.png" alt="Atraso Motor" width={64} height={64} />
+                  <Image src="/images/2.png" alt="Atraso Motor" width={64} height={64} />
                 </div>
                 <h3 className={styles.cardTitle}>Atraso no Desenvolvimento Motor</h3>
                 <p className={styles.cardText}>
@@ -229,9 +225,7 @@ export default function Home() {
                   motoras, funcionalidade e maior participação nas atividades
                   do dia a dia.
                 </p>
-                <span className={`${styles.cardTag} ${styles.tagLavender}`}>
-                  Estimulação
-                </span>
+
               </div>
             </div>
           </div>
