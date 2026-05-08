@@ -186,9 +186,10 @@ export default function Home() {
                 </div>
                 <h3 className={styles.cardTitle}>Torcicolo Muscular</h3>
                 <p className={styles.cardText}>
-                  Tratamento especializado para correção postural precoce,
-                  promovendo alongamento e fortalecimento muscular para garantir
-                  a simetria motora desde as primeiras semanas de vida.
+                  Tratamento precoce do torcicolo muscular, promovendo melhora
+                  do alinhamento postural, da mobilidade cervical e do
+                  desenvolvimento motor do bebê de forma individualizada e
+                  acolhedora.
                 </p>
                 <span className={`${styles.cardTag} ${styles.tagSage}`}>
                   Intervenção Precoce
@@ -202,9 +203,10 @@ export default function Home() {
                 </div>
                 <h3 className={styles.cardTitle}>Assimetria Craniana</h3>
                 <p className={styles.cardText}>
-                  Avaliação especializada e orientações de posicionamento para
-                  prevenção e correção, garantindo o desenvolvimento harmônico
-                  da forma craniana do bebê.
+                  Atendimento voltado para prevenção e tratamento da assimetria
+                  craniana, com orientações de posicionamento e estímulos
+                  específicos que favorecem a simetria craniana e o
+                  desenvolvimento do bebê.
                 </p>
                 <span className={`${styles.cardTag} ${styles.tagBlush}`}>
                   Preventivo
