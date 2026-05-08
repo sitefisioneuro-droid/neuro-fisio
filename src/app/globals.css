@@ -145,7 +145,7 @@ button {
 }
 
 .btnOutline {
-  background-color: transparent;
+  background-color: var(--white);
   border: 2px solid var(--sage);
   color: var(--sage-dark);
 }
