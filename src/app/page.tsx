@@ -74,15 +74,27 @@ export default function Home() {
             </a>
           </nav>
 
-          <button
-            className={styles.hamburger}
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Menu"
-          >
-            <span />
-            <span />
-            <span />
-          </button>
+          <div className={styles.headerActions}>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.headerInstagram}
+              aria-label="Instagram"
+            >
+              <Instagram size={22} />
+            </a>
+
+            <button
+              className={styles.hamburger}
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Menu"
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+          </div>
         </div>
       </header>
 
@@ -195,7 +207,9 @@ export default function Home() {
                   desenvolvimento motor do bebê de forma individualizada e
                   acolhedora.
                 </p>
-
+                <div className={styles.cardFooter}>
+                  <span className={`${styles.cardTag} ${styles.tagSage}`}>Reabilitação</span>
+                </div>
               </div>
 
               {/* Card 2 — Assimetria Craniana */}
@@ -210,7 +224,9 @@ export default function Home() {
                   específicos que favorecem a simetria craniana e o
                   desenvolvimento do bebê.
                 </p>
-
+                <div className={styles.cardFooter}>
+                  <span className={`${styles.cardTag} ${styles.tagBlush}`}>Reposicionamento</span>
+                </div>
               </div>
 
               {/* Card 3 — Atraso Motor */}
@@ -225,7 +241,9 @@ export default function Home() {
                   motoras, funcionalidade e maior participação nas atividades
                   do dia a dia.
                 </p>
-
+                <div className={styles.cardFooter}>
+                  <span className={`${styles.cardTag} ${styles.tagLavender}`}>Estimulação</span>
+                </div>
               </div>
             </div>
           </div>
@@ -293,14 +311,17 @@ export default function Home() {
         <section id="localizacao" className={styles.location}>
           <div className={styles.locationInner}>
             <div className={styles.mapWrapper}>
-              {/* Trocar pela imagem real do mapa ou iframe do Google Maps */}
-              <Image
-                src="/images/map.png"
-                alt="Mapa de localização"
-                width={600}
-                height={500}
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.071991077431!2d-43.95873230000001!3d-19.9213709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69741bd3cc4f9%3A0x8ea06e3faffc31e8!2sR.%20Jaceguai%2C%20208%20-%20Prado%2C%20Belo%20Horizonte%20-%20MG%2C%2030411-073!5e0!3m2!1spt-BR!2sbr!4v1778333637167!5m2!1spt-BR!2sbr"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Mapa de localização"
                 className={styles.mapImg}
-              />
+              ></iframe>
             </div>
 
             <div className={styles.contactCard}>
@@ -318,7 +339,7 @@ export default function Home() {
                     <span className={styles.contactLabel}>Endereço</span>
                     {/* ⬇ Trocar pelo endereço real */}
                     <p className={styles.contactValue}>
-                      Endereço pendente — a ser atualizado
+                      Rua Jaceguai 208 - salas 1213/1214. Bairro Prado.
                     </p>
                   </div>
                 </div>
