@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "fisioterapia pediátrica",
     "neurodesenvolvimento",
   ],
+  icons: {
+    icon: "/images/fav.png",
+  },
 };
 
 export default function RootLayout({
