@@ -46,6 +46,8 @@ export default function Home() {
               height={80}
               className={styles.logoImg}
               priority
+              quality={75}
+              sizes="(max-width: 768px) 150px, 200px"
             />
           </a>
 
@@ -151,6 +153,9 @@ export default function Home() {
                   alt="Ambiente terapêutico acolhedor com brinquedos"
                   width={500}
                   height={420}
+                  quality={75}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                  priority
                 />
               </div>
               <div className={styles.aboutImageDecor} />
@@ -198,7 +203,14 @@ export default function Home() {
               {/* Card 1 — Torcicolo */}
               <div className={`${styles.specialtyCard} ${styles.cardSage}`}>
                 <div className={styles.iconCircle}>
-                  <Image src="/images/1.png" alt="Torcicolo" width={64} height={64} />
+                  <Image 
+                    src="/images/1.png" 
+                    alt="Torcicolo" 
+                    width={64} 
+                    height={64} 
+                    quality={75}
+                    sizes="64px"
+                  />
                 </div>
                 <h3 className={styles.cardTitle}>Torcicolo Muscular</h3>
                 <p className={styles.cardText}>
@@ -215,7 +227,14 @@ export default function Home() {
               {/* Card 2 — Assimetria Craniana */}
               <div className={`${styles.specialtyCard} ${styles.cardBlush}`}>
                 <div className={styles.iconCircle}>
-                  <Image src="/images/assimetria.png" alt="Assimetria Craniana" width={64} height={64} />
+                  <Image 
+                    src="/images/assimetria.png" 
+                    alt="Assimetria Craniana" 
+                    width={64} 
+                    height={64} 
+                    quality={75}
+                    sizes="64px"
+                  />
                 </div>
                 <h3 className={styles.cardTitle}>Assimetria Craniana</h3>
                 <p className={styles.cardText}>
@@ -232,7 +251,14 @@ export default function Home() {
               {/* Card 3 — Atraso Motor */}
               <div className={`${styles.specialtyCard} ${styles.cardLavender}`}>
                 <div className={styles.iconCircle}>
-                  <Image src="/images/2.png" alt="Atraso Motor" width={64} height={64} />
+                  <Image 
+                    src="/images/2.png" 
+                    alt="Atraso Motor" 
+                    width={64} 
+                    height={64} 
+                    quality={75}
+                    sizes="64px"
+                  />
                 </div>
                 <h3 className={styles.cardTitle}>Atraso no Desenvolvimento Motor</h3>
                 <p className={styles.cardText}>
@@ -264,6 +290,8 @@ export default function Home() {
                     width={320}
                     height={400}
                     style={{ objectFit: "cover" }}
+                    quality={75}
+                    sizes="(max-width: 768px) 100vw, 320px"
                   />
                 </div>
               </div>
@@ -411,6 +439,8 @@ export default function Home() {
                 width={180}
                 height={72}
                 className={styles.footerLogo}
+                quality={75}
+                sizes="180px"
               />
               <p>
                 Fisioterapia neurológica pediátrica com carinho e ciência.
