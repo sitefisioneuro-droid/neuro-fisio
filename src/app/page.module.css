@@ -353,7 +353,7 @@
 
 .specialtyCard {
   background: var(--white);
-  padding: 2.5rem 2rem 0;
+  padding: 2.5rem 2rem;
   border-radius: var(--radius-md);
   border: 1px solid var(--soft-border);
   transition: all 0.4s ease;
@@ -361,6 +361,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   height: 100%;
 }
 
@@ -390,7 +392,7 @@
   height: 72px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin-bottom: 1.5rem;
 }
 
@@ -410,32 +412,33 @@
 
 .cardFooter {
   margin-top: auto;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  padding: 1.25rem 2rem;
+  padding: 0.6rem 1.25rem;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  border-radius: 20px;
+    width: fit-content;
 }
 
 .cardSage .cardFooter {
   background: var(--sage-light);
   color: var(--sage-dark);
-  border-top: 1px solid var(--sage);
 }
 
 .cardBlush .cardFooter {
-  background: var(--blush-light);
-  color: #B8706A;
-  border-top: 1px solid var(--blush);
+  background: var(--blush-50);
+    color: #e58af1;
+  }
+  
+  .cardLavender {
+    background: var(--lilac-bg);
 }
 
 .cardLavender .cardFooter {
-  background: var(--lavender-light);
+  background: var(--lavender);
   color: #7D6FA8;
-  border-top: 1px solid var(--lavender);
 }
 
 /* ── PROFESSIONAL ── */
