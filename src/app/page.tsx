@@ -24,7 +24,7 @@ const INSTAGRAM_URL = "https://www.instagram.com/anacassiafisio?igsh=MWE3bmQ1NnV
 const PHONE_DISPLAY = "(31) 99993-5571";
 
 const WHATSAPP_MSG = encodeURIComponent(
-  "Olá Ana Cássia! Vi seu site e gostaria de agendar uma consulta de fisioterapia neurológica infantil."
+  "Olá Ana Cássia! Vi seu site e gostaria de agendar uma consulta de fisioterapia neurofuncional infantil."
 );
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
 
@@ -41,7 +41,7 @@ export default function Home() {
           <a href="#" className={styles.logoArea}>
             <Image
               src="/images/logo.jpg"
-              alt="NeuroFisio Infantil"
+              alt="NeuroFisio Infantil - Fisioterapia Pediátrica em Belo Horizonte"
               width={200}
               height={80}
               className={styles.logoImg}
@@ -110,17 +110,16 @@ export default function Home() {
 
 
               <h1 className={styles.heroTitle}>
-                Cuidado gentil para o{" "}
+                Fisioterapia Neurofuncional Infantil em{" "}
                 <span className={styles.heroTitleHighlight}>
-                  desenvolvimento motor
-                </span>{" "}
-                do seu filho.
+                  Belo Horizonte
+                </span>
               </h1>
 
               <p className={styles.heroSubtitle}>
-                Experiência clínica em Torcicolo Muscular, Assimetria Craniana e
-                Atraso no Desenvolvimento Motor. Transformo o brincar em
-                reabilitação especializada.
+                Cuidado gentil e especializado para o desenvolvimento motor do
+                seu filho. Experiência clínica em Torcicolo Muscular, Assimetria
+                Craniana e Atraso no Desenvolvimento Motor.
               </p>
 
               <div className={styles.heroActions}>
@@ -150,7 +149,7 @@ export default function Home() {
               <div className={styles.aboutImage}>
                 <Image
                   src="/images/about.png"
-                  alt="Ambiente terapêutico acolhedor com brinquedos"
+                  alt="Consultório de fisioterapia pediátrica da Ana Cássia em Belo Horizonte"
                   width={500}
                   height={420}
                   quality={75}
@@ -205,7 +204,7 @@ export default function Home() {
                 <div className={styles.iconCircle}>
                   <Image 
                     src="/images/1.png" 
-                    alt="Torcicolo" 
+                    alt="Tratamento de Torcicolo Muscular Congênito em bebês" 
                     width={64} 
                     height={64} 
                     quality={75}
@@ -229,7 +228,7 @@ export default function Home() {
                 <div className={styles.iconCircle}>
                   <Image 
                     src="/images/assimetria.png" 
-                    alt="Assimetria Craniana" 
+                    alt="Prevenção e tratamento de Assimetria Craniana em bebês" 
                     width={64} 
                     height={64} 
                     quality={75}
@@ -253,7 +252,7 @@ export default function Home() {
                 <div className={styles.iconCircle}>
                   <Image 
                     src="/images/2.png" 
-                    alt="Atraso Motor" 
+                    alt="Estímulo ao desenvolvimento motor infantil e reabilitação" 
                     width={64} 
                     height={64} 
                     quality={75}
@@ -286,7 +285,7 @@ export default function Home() {
                 <div className={styles.proImage}>
                   <Image
                     src="/images/profissional.jpeg"
-                    alt="Foto de Ana Cássia Siqueira da Cunha"
+                    alt="Ana Cássia Siqueira da Cunha - Fisioterapeuta Neurofuncional Infantil em BH"
                     width={320}
                     height={400}
                     style={{ objectFit: "cover" }}
@@ -435,7 +434,7 @@ export default function Home() {
             <div className={styles.footerBrand}>
               <Image
                 src="/images/logo.jpg"
-                alt="NeuroFisio Infantil"
+                alt="NeuroFisio Infantil - Logo Rodapé"
                 width={180}
                 height={72}
                 className={styles.footerLogo}
@@ -443,7 +442,7 @@ export default function Home() {
                 sizes="180px"
               />
               <p>
-                Fisioterapia neurológica pediátrica com carinho e ciência.
+                Fisioterapia neurofuncional pediátrica com carinho e ciência.
                 Cuidado gentil para o potencial de cada criança.
               </p>
             </div>
