@@ -136,11 +136,11 @@
 /* ── HERO ── */
 .hero {
   position: relative;
-  min-height: 80vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   padding-top: 76px;
-  background: linear-gradient(135deg, var(--cream) 0%, var(--sage-50) 100%);
+  background: linear-gradient(135deg, var(--cream) 0%, var(--blush-light) 40%, var(--lavender-light) 100%);
   overflow: hidden;
 }
 
@@ -191,7 +191,7 @@
 }
 
 .heroTitleHighlight {
-  color: var(--sage);
+  color: var(--brown-dark);
 }
 
 .heroSubtitle {
@@ -230,7 +230,7 @@
   height: 120%;
   top: -10%;
   left: -10%;
-  background: radial-gradient(ellipse, var(--sage-light) 0%, transparent 70%);
+  background: radial-gradient(ellipse, var(--blush-light) 0%, transparent 70%);
   opacity: 0.4;
   z-index: -1;
   border-radius: 50%;

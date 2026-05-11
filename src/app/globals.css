@@ -14,10 +14,12 @@
   --sage-50: #EDF7F4;
 
   /* ── Cores de Acento ── */
-  --blush: #F2B8B5;
-  --blush-light: #FDDCDA;
-  --lavender: #C5B9E8;
-  --lavender-light: #E8E0F8;
+  --blush: #fcedfd;
+  --blush-light: #fcebfb;
+  --blush-50: #FFF5F4;
+  --lavender: #f7dcff;
+  --lavender-light: #ffffff;
+  --brown-dark: #49302b;
   --peach: #F8CFA0;
   --peach-light: #FDE8CC;
   --mint: #B5E2D0;

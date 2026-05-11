@@ -191,7 +191,7 @@ export default function Home() {
             ════════════════════════════════════════════ */}
         <section id="especialidades" className={styles.specialties}>
           <div className={styles.specialtiesInner}>
-            <h2 className={styles.sectionTitle}>Área de Atuação</h2>
+            <h2 className={styles.sectionTitle}>Áreas de Atuação</h2>
             <p className={styles.sectionSubtitle}>
               Atendimento especializado para bebês e crianças com atraso no
               desenvolvimento motor, torcicolo muscular e assimetrias
