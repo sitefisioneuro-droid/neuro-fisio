@@ -220,7 +220,7 @@ export default function Home() {
                   acolhedora.
                 </p>
                 <div className={styles.cardFooter}>
-                  <span className={`${styles.cardTag} ${styles.tagSage}`}>Reabilitação</span>
+                  Reabilitação
                 </div>
               </div>
 
@@ -244,7 +244,7 @@ export default function Home() {
                   desenvolvimento do bebê.
                 </p>
                 <div className={styles.cardFooter}>
-                  <span className={`${styles.cardTag} ${styles.tagBlush}`}>Reposicionamento</span>
+                  Reposicionamento
                 </div>
               </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
                   do dia a dia.
                 </p>
                 <div className={styles.cardFooter}>
-                  <span className={`${styles.cardTag} ${styles.tagLavender}`}>Estimulação</span>
+                  Estimulação
                 </div>
               </div>
             </div>
@@ -488,8 +488,7 @@ export default function Home() {
 
           <div className={styles.footerBottom}>
             <p className={styles.footerCopy}>
-              © {new Date().getFullYear()} NeuroFisio Infantil. Todos os
-              direitos reservados.
+              © {new Date().getFullYear()} Ana Cássia - fisioterapeuta neurofuncional. Todos os direitos reservados.
             </p>
             <div className={styles.footerSocials}>
               <a

@@ -353,7 +353,7 @@
 
 .specialtyCard {
   background: var(--white);
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 2rem 0;
   border-radius: var(--radius-md);
   border: 1px solid var(--soft-border);
   transition: all 0.4s ease;
@@ -410,32 +410,32 @@
 
 .cardFooter {
   margin-top: auto;
-  padding-top: 1rem;
-}
-
-.cardTag {
-  display: inline-block;
-  font-size: 0.7rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  padding: 1.25rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
   font-weight: 700;
-  padding: 0.35rem 0.85rem;
-  border-radius: var(--radius-full);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
-.tagSage {
-  background: var(--sage-50);
+.cardSage .cardFooter {
+  background: var(--sage-light);
   color: var(--sage-dark);
+  border-top: 1px solid var(--sage);
 }
 
-.tagBlush {
+.cardBlush .cardFooter {
   background: var(--blush-light);
   color: #B8706A;
+  border-top: 1px solid var(--blush);
 }
 
-.tagLavender {
+.cardLavender .cardFooter {
   background: var(--lavender-light);
   color: #7D6FA8;
+  border-top: 1px solid var(--lavender);
 }
 
 /* ── PROFESSIONAL ── */
@@ -571,7 +571,7 @@
 }
 
 .contactCard {
-  background: var(--sage);
+  background: var(--contact);
   padding: 3.5rem;
   border-radius: var(--radius-lg);
   color: var(--white);
