@@ -352,7 +352,7 @@ export default function Home() {
             <div className={styles.contactCard}>
               <h2 className={styles.contactTitle}>Onde me Encontrar</h2>
               <p className={styles.contactSubtitle}>
-                Meu foco principal é o <strong>atendimento domiciliar</strong>, levando o cuidado até o conforto do seu lar. Caso resida em locais mais distantes, também ofereço a opção de atendimento em consultório.
+                Meu foco principal é o <strong>atendimento domiciliar</strong>, levando o cuidado até o conforto do seu lar. Caso sua residência esteja fora da minha rota de atendimentos domiciliares, podemos realizar o acompanhamento em consultório.
               </p>
 
               <div className={styles.contactList}>
