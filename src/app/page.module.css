@@ -140,7 +140,7 @@
   display: flex;
   align-items: center;
   padding-top: 76px;
-  background: linear-gradient(135deg, var(--cream) 0%, var(--blush-light) 40%, var(--lavender-light) 100%);
+  background: linear-gradient(135deg, #fdcbff,  0%, var(--blush-light) 40%, #ffe4e4, 100%);
   overflow: hidden;
 }
 
@@ -361,8 +361,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   height: 100%;
 }
 
@@ -413,13 +413,12 @@
 .cardFooter {
   margin-top: auto;
   padding: 0.6rem 1.25rem;
-  text-align: center;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 20px;
-    width: fit-content;
+  width: fit-content;
 }
 
 .cardSage .cardFooter {

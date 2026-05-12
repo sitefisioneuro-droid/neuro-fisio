@@ -213,10 +213,9 @@ export default function Home() {
                 </div>
                 <h3 className={styles.cardTitle}>Torcicolo Muscular</h3>
                 <p className={styles.cardText}>
-                  Tratamento precoce do torcicolo muscular, promovendo melhora
-                  do alinhamento postural, da mobilidade cervical e do
-                  desenvolvimento motor do bebê de forma individualizada e
-                  acolhedora.
+                  Tratamento precoce do torcicolo muscular para ajudar o bebê a movimentar
+                  melhor o pescoço, ficar mais confortável nas atividades do dia a dia e se
+                  desenvolver com mais liberdade e harmonia.
                 </p>
                 <div className={styles.cardFooter}>
                   Reabilitação
@@ -237,10 +236,10 @@ export default function Home() {
                 </div>
                 <h3 className={styles.cardTitle}>Assimetria Craniana</h3>
                 <p className={styles.cardText}>
-                  Atendimento voltado para prevenção e tratamento da assimetria
-                  craniana, com orientações de posicionamento e estímulos
-                  específicos que favorecem a simetria craniana e o
-                  desenvolvimento do bebê.
+                  Atendimento individualizado para bebês com assimetria craniana,
+                  com estratégias de posicionamento e estímulos que auxiliam na
+                  evolução da cabecinha e trazem mais tranquilidade
+                  aos pais durante o desenvolvimento do bebê.
                 </p>
                 <div className={styles.cardFooter}>
                   Reposicionamento
@@ -261,10 +260,9 @@ export default function Home() {
                 </div>
                 <h3 className={styles.cardTitle}>Atraso no Desenvolvimento Motor</h3>
                 <p className={styles.cardText}>
-                  Atendimento individualizado para crianças com atraso do
-                  desenvolvimento motor, promovendo aquisição de habilidades
-                  motoras, funcionalidade e maior participação nas atividades
-                  do dia a dia.
+                  Estimulação especializada para crianças com atraso motor, auxiliando
+                  no desenvolvimento de habilidades importantes como tummy time, rolar,
+                  sentar, engatinhar, andar e explorar o ambiente com mais autonomia.
                 </p>
                 <div className={styles.cardFooter}>
                   Estimulação
