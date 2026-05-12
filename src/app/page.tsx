@@ -110,7 +110,7 @@ export default function Home() {
 
 
               <h1 className={styles.heroTitle}>
-                Fisioterapia Neurofuncional Infantil em{" "}
+                Fisioterapia Neurofuncional Pediátrica em{" "}
                 <span className={styles.heroTitleHighlight}>
                   Belo Horizonte
                 </span>

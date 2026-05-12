@@ -15,7 +15,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Fisioterapia Neurofuncional Infantil em Belo Horizonte | Ana Cássia",
+  title: "Fisioterapia Neurofuncional Pediátrica em Belo Horizonte | Ana Cássia",
   description:
     "Fisioterapia neurofuncional pediátrica em Belo Horizonte. Especialista em torcicolo, assimetria craniana e atraso motor. Atendimento domiciliar e em consultório.",
   keywords: [
