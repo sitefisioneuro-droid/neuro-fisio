@@ -18,21 +18,30 @@ const quicksand = Quicksand({
 export const metadata: Metadata = {
   title: "Fisioterapia Neurofuncional Pediátrica em Belo Horizonte | Ana Cássia",
   description:
-    "Fisioterapia neurofuncional pediátrica em Belo Horizonte. Especialista em torcicolo, assimetria craniana e atraso motor. Atendimento domiciliar e em consultório.",
+    "Fisioterapia neurofuncional pediátrica em Belo Horizonte. Especialista em torcicolo congênito, assimetria craniana e atraso no desenvolvimento motor infantil.",
   keywords: [
     "fisioterapia neurofuncional infantil",
     "fisioterapia pediátrica belo horizonte",
-    "torcicolo congênito",
-    "assimetria craniana",
-    "atraso motor",
+    "fisioterapeuta pediatrica belo horizonte",
+    "torcicolo congênito bh",
+    "assimetria craniana bh",
+    "atraso no desenvolvimento motor bh",
     "fisioterapia bh",
-    "neurodesenvolvimento",
+    "fisioterapeuta infantil bh",
+    "fisioterapia para bebes bh",
+    "estimulacao precoce bh",
+    "fisioterapia neuropediatrica bh",
+    "neurodesenvolvimento infantil",
+    "fisioterapia infantil em domicilio bh",
+    "fisioterapia pediatrica prado bh",
+    "torcicolo muscular congenito tratamento",
+    "plagiocefalia posicional bh",
   ],
   authors: [{ name: "Ana Cássia Siqueira da Cunha" }],
   openGraph: {
     title: "Fisioterapia Neurofuncional Infantil em Belo Horizonte | Ana Cássia",
-    description: "Especialista em torcicolo, assimetria craniana e atraso motor. Cuidado gentil e especializado para o seu filho.",
-    url: "https://neurofisioinfantil.com.br", // Substituir pelo domínio real se disponível
+    description: "Especialista em torcicolo congênito, assimetria craniana e atraso no desenvolvimento motor. Cuidado gentil e especializado.",
+    url: "https://anacassiafisio.com",
     siteName: "NeuroFisio Infantil",
     locale: "pt_BR",
     type: "website",
@@ -41,21 +50,21 @@ export const metadata: Metadata = {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "NeuroFisio Infantil - Ana Cássia",
+        alt: "NeuroFisio Infantil - Fisioterapia Pediátrica em Belo Horizonte",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Fisioterapia Neurofuncional Infantil em Belo Horizonte | Ana Cássia",
-    description: "Especialista em torcicolo, assimetria craniana e atraso motor.",
+    description: "Especialista em torcicolo congênito, assimetria craniana e atraso motor em Belo Horizonte.",
     images: ["/images/og-image.jpg"],
   },
   icons: {
     icon: "/images/fav.png",
   },
   alternates: {
-    canonical: "https://neurofisioinfantil.com.br",
+    canonical: "https://anacassiafisio.com",
   },
 };
 
@@ -68,7 +77,23 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "name": "NeuroFisio Infantil - Ana Cássia",
-    "image": "https://neurofisioinfantil.com.br/images/logo.jpg",
+    "image": "https://anacassiafisio.com/images/logo.jpg",
+    "description": "Fisioterapia neurofuncional pediátrica em Belo Horizonte. Especializada em torcicolo muscular congênito, assimetrias cranianas e atraso do desenvolvimento motor em bebês e crianças.",
+    "medicalSpecialty": "PediatricPhysicalTherapy",
+    "knowsAbout": [
+      "Fisioterapia Neurofuncional Pediátrica",
+      "Torcicolo Muscular Congênito",
+      "Assimetria Craniana",
+      "Plagiocefalia Posicional",
+      "Atraso no Desenvolvimento Motor",
+      "Estimulação Motora Precoce",
+      "Fisioterapia de Bebês"
+    ],
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Belo Horizonte"
+    },
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Rua Jaceguai 208, salas 1213/1214",
@@ -82,7 +107,7 @@ export default function RootLayout({
       "latitude": -19.9213709,
       "longitude": -43.9587323
     },
-    "url": "https://neurofisioinfantil.com.br",
+    "url": "https://anacassiafisio.com",
     "telephone": "+5531999935571",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",

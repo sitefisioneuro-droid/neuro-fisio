@@ -155,8 +155,14 @@
 }
 
 .heroContent {
-  max-width: 600px;
+  width: 700px; 
   animation: fadeInUp 0.8s ease-out;
+}
+
+@media (max-width: 450px) {
+  .heroContent {
+    width: 100%; 
+  }
 }
 
 .heroBadge {

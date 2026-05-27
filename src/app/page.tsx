@@ -86,7 +86,7 @@ export default function Home() {
             >
               <Instagram size={22} />
             </a>
-
+            
             <button
               className={styles.hamburger}
               onClick={() => setMenuOpen(!menuOpen)}

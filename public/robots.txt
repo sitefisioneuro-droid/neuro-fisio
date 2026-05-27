@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Caminho completo para o sitemap de Fisioterapia Neurofuncional Pediátrica em BH
+Sitemap: https://anacassiafisio.com/sitemap.xml
