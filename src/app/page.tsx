@@ -107,8 +107,6 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroInner}>
             <div className={styles.heroContent}>
-
-
               <h1 className={styles.heroTitle}>
                 Fisioterapia Neurofuncional Pediátrica em{" "}
                 <span className={styles.heroTitleHighlight}>
@@ -135,6 +133,22 @@ export default function Home() {
                 <a href="#especialidades" className="btn btnOutline">
                   Conhecer Especialidades
                 </a>
+              </div>
+            </div>
+
+            {/* Foto oval flutuante — visível apenas no desktop */}
+            <div className={styles.heroOvalWrapper}>
+              <div className={styles.heroOval}>
+                <Image
+                  src="/images/fotoAtua.jpg"
+                  alt="Fisioterapia neurofuncional pediátrica - Atendimento em Belo Horizonte"
+                  width={420}
+                  height={320}
+                  className={styles.heroOvalImg}
+                  priority
+                  quality={80}
+                  sizes="(max-width: 1024px) 0px, 420px"
+                />
               </div>
             </div>
           </div>
