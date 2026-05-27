@@ -140,7 +140,7 @@ export default function Home() {
             <div className={styles.heroOvalWrapper}>
               <div className={styles.heroOval}>
                 <Image
-                  src="/images/fotoAtua.jpg"
+                  src="/images/fotoAtua.webp"
                   alt="Fisioterapia neurofuncional pediátrica - Atendimento em Belo Horizonte"
                   width={420}
                   height={320}
@@ -162,7 +162,7 @@ export default function Home() {
             <div className={styles.aboutImageWrapper}>
               <div className={styles.aboutImage}>
                 <Image
-                  src="/images/about.png"
+                  src="/images/about.webp"
                   alt="Consultório de fisioterapia pediátrica da Ana Cássia em Belo Horizonte"
                   width={500}
                   height={420}
